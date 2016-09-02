@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #1B65AF;
+}
+
+body {
+  color: white;
+  font-family: "小塚ゴシックPro M", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  background: none;
+  border: none;
+  color: white;
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 2.5em;
+  margin: auto;
+  width: 90%;
+}
+
+.button.contrast {
+  background-color: white;
+  color: #1B65AF;
+}
+
+.list-item {
+  background: linear-gradient(#155BA1, #1860a8);
+  padding: 2em;
+}
+
+.pull-left {
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.disabled {
+  color: #3483d1;
+  pointer-events: none;
+}
+
+.disabled img {
+  opacity: 0.3;
+}

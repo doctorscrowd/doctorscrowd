@@ -1,0 +1,35 @@
+header {
+  margin: 16px 0;
+  text-align: center;
+}
+
+header > img {
+  max-width: 480px;
+  width: 75%;
+}
+
+.service {
+  display: table-cell;
+  height: 16em;
+  vertical-align: middle;
+}
+
+.service .icon {
+  width: 20%;
+}
+
+.service .heading {
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: .5em;
+}
+
+.service .heading > span {
+  margin-right: -.5em;
+}
+
+.bottom {
+  bottom: 1em;
+  width: 100%;
+  position: absolute;
+}

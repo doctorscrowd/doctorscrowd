@@ -1,0 +1,17 @@
+p {
+  margin: 1em;
+}
+
+.list-item > img {
+  float: left;
+  margin-right: 1em;
+  width: 96px;
+}
+
+.list-item .caption {
+  min-height: 96px;
+}
+
+.list-item .caption .reading {
+  font-size: .8em;
+}
